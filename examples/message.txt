@@ -1,0 +1,2 @@
+Confidential enterprise message.
+AES-256-GCM protects the payload; RSA-OAEP protects the session key.
