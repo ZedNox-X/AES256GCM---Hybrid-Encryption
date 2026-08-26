@@ -56,7 +56,7 @@ The encrypted package is a versioned binary container containing the RSA-wrapped
 
 ## Security notes.
 
-This project is an educational/reference implementation, not a replacement for a reviewed production cryptosystem. Private keys must be protected with appropriate OS permissions, secret storage, rotation, and operational controls.
+This project is an educational/reference implementation, not a replacement for a reviewed production cryptosystem. Private keys must be protected with appropriate OS permissions, secret storage, rotation, and operational controls
 
 AES-GCM provides confidentiality and integrity only when nonces are never reused with the same key. This implementation generates a fresh random AES-256 key for every encryption operation, making nonce reuse across encryption operations impossible.
 
