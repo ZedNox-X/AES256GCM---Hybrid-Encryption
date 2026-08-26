@@ -54,7 +54,7 @@ python -m hybridcrypt.cli decrypt   --private-key keys/private.pem   --input exa
 
 The encrypted package is a versioned binary container containing the RSA-wrapped AES key, GCM nonce, authentication tag, AAD, and ciphertext.
 
-## Security notes
+## Security notes.
 
 This project is an educational/reference implementation, not a replacement for a reviewed production cryptosystem. Private keys must be protected with appropriate OS permissions, secret storage, rotation, and operational controls.
 
