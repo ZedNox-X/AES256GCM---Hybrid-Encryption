@@ -1,6 +1,6 @@
 # AES-256-GCM Hybrid Encryption
 
-A GitHub-ready reference implementation of hybrid encryption using:
+A GitHub-ready reference implementation of hybrid encryption using
 - AES-256-GCM for authenticated bulk encryption
 - RSA-3072-OAEP-SHA-256 for wrapping the AES session key
 - Random 96-bit GCM nonces
