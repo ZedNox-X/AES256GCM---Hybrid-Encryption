@@ -1,4 +1,4 @@
-# AES-256-GCM Hybrid Encryption
+# AES-256-GCM Hybrid Encryption.
 
 A GitHub-ready reference implementation of hybrid encryption .
 - AES-256-GCM for authenticated bulk encryption
