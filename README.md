@@ -9,6 +9,9 @@ A GitHub-ready reference implementation of hybrid encryption
 - Tamper detection
 - Unit tests
 
+- <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/3257723c-61be-4727-b953-02f4e9683c62" />
+
+
 ## Architecture
 
 Plaintext -> AES-256-GCM -> Ciphertext
