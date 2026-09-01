@@ -63,4 +63,4 @@ AES-GCM provides confidentiality and integrity only when nonces are never reused
 
 RSA-OAEP is used only for encrypting the randomly generated AES key. RSA is not used to encrypt the bulk payload.
 
-Updated on 31st August 2026 by Melbin George
+Updated on 1st September 2026 by Melbin George
