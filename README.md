@@ -1,6 +1,6 @@
-# AES-256-GCM Hybrid Encryption
+# AES-256-GCM Hybrid Encryption.
 
-A GitHub-ready reference implementation of hybrid encryption using:
+A GitHub-ready reference implementation of hybrid encryption
 - AES-256-GCM for authenticated bulk encryption
 - RSA-3072-OAEP-SHA-256 for wrapping the AES session key
 - Random 96-bit GCM nonces
@@ -9,6 +9,7 @@ A GitHub-ready reference implementation of hybrid encryption using:
 - Tamper detection
 - Unit tests
 
+<img width="1536" height="1024" alt="AES" src="https://github.com/user-attachments/assets/ffda4809-6b9b-4ae5-96a0-643c3b2d1eaf" />
 ## Architecture
 
 Plaintext -> AES-256-GCM -> Ciphertext
@@ -56,12 +57,11 @@ The encrypted package is a versioned binary container containing the RSA-wrapped
 
 ## Security notes.
 
-This project is an educational/reference implementation, not a replacement for a reviewed production cryptosystem. Private keys must be protected with appropriate OS permissions, secret storage, rotation, and operational controls.
+This project is an educational/reference implementation, not a replacement for a reviewed production cryptosystem. Private keys must be protected with appropriate OS permissions, secret storage, rotation, and operational controls
 
 AES-GCM provides confidentiality and integrity only when nonces are never reused with the same key. This implementation generates a fresh random AES-256 key for every encryption operation, making nonce reuse across encryption operations impossible.
 
 RSA-OAEP is used only for encrypting the randomly generated AES key. RSA is not used to encrypt the bulk payload.
 
-## License
+Updated on 16-10-2026 by Melbin George
 
-MIT
